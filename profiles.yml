@@ -9,7 +9,7 @@
 #  $ dbt run --profiles-dir /opt/dbt/
 #
 
-jaffle:
+jaffle_shop:
     outputs:
         dev:                
             # specify the snowflake connection
