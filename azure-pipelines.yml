@@ -38,6 +38,6 @@ jobs:
         command: buildAndPush
         repository: 'funcapp-dbt-trigger'
         dockerfile: 'Dockerfile'
-        containerRegistry: 'svc-demo-docker-reg'
+        containerRegistry: 'hoistcontainertest'
         tags: |
           $(Build.BuildId)
